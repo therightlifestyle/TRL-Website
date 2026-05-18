@@ -3,52 +3,67 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>TRL – The Right Lifestyle</title>
+  <meta name="description" content="TRL – The Right Lifestyle. Structured digital systems, scalable web products, and professional brand architecture for modern businesses."/>
+  <meta name="keywords" content="TRL, The Right Lifestyle, digital systems, web development, branding, scalable solutions"/>
+  <meta name="author" content="TRL – The Right Lifestyle"/>
+  <meta name="theme-color" content="#000000"/>
+  <title>TRL – The Right Lifestyle | Digital Systems & Web Products</title>
   <link rel="stylesheet" href="style.css"/>
 </head>
 
 <body>
 
-<nav>
-  <div class="logo">TRL</div>
+<nav role="navigation" aria-label="Main Navigation">
+  <div class="logo" aria-label="TRL Logo">TRL</div>
   <div class="menu">
-    <a href="#about">About</a>
-    <a href="#projects">Projects</a>
-    <a href="#system">System</a>
+    <a href="#about" aria-label="Navigate to About section">About</a>
+    <a href="#system" aria-label="Navigate to System Architecture section">System</a>
+    <a href="#projects" aria-label="Navigate to Projects section">Projects</a>
   </div>
 </nav>
 
-<header class="hero">
+<header class="hero" role="banner">
   <h1>THE RIGHT LIFESTYLE</h1>
-  <p>Structured digital systems, scalable web products, and brand architecture.</p>
+  <p>Structured digital systems, scalable web products, and professional brand architecture.</p>
 </header>
 
-<section id="about">
-  <h2>About TRL</h2>
-  <p>TRL is a structured development system focused on building scalable digital assets instead of random projects.</p>
+<section id="about" aria-labelledby="about-heading">
+  <h2 id="about-heading">About TRL</h2>
+  <p>TRL is a structured development system focused on building scalable digital assets instead of random projects. We combine strategic planning, professional branding, and clean development to create lasting digital solutions.</p>
 </section>
 
-<section id="system">
-  <h2>System Architecture</h2>
-  <ul>
-    <li>Idea → Internal Docs</li>
-    <li>Plan → Project Build</li>
-    <li>Branding → Visual System</li>
-    <li>Deploy → GitHub Pages</li>
+<section id="system" aria-labelledby="system-heading">
+  <h2 id="system-heading">System Architecture</h2>
+  <ul role="list">
+    <li>💡 Idea → Internal Docs</li>
+    <li>📋 Plan → Project Build</li>
+    <li>🎨 Branding → Visual System</li>
+    <li>🚀 Deploy → GitHub Pages</li>
   </ul>
 </section>
 
-<section id="projects">
-  <h2>First TRL Product</h2>
-  <div class="card">
+<section id="projects" aria-labelledby="projects-heading">
+  <h2 id="projects-heading">First TRL Product</h2>
+  <div class="card" role="article">
     <h3>TRL Landing System</h3>
-    <p>A structured company landing page system built for scalable branding.</p>
-    <span>Status: Live Prototype</span>
+    <p>A structured company landing page system built for scalable branding. Features responsive design, dark theme aesthetics, and modular sections.</p>
+    <span role="status" aria-label="Status: Live Prototype">Status: Live Prototype</span>
   </div>
 </section>
 
-<footer>
-  <p>© TRL – The Right Lifestyle</p>
+<section aria-labelledby="repos-heading">
+  <h2 id="repos-heading">Our Repositories</h2>
+  <ul role="list">
+    <li><strong>TRL-Website</strong> → Public web presence & GitHub Pages</li>
+    <li><strong>TRL-Branding</strong> → Brand identity & design system</li>
+    <li><strong>TRL-Projects</strong> → Active development & products</li>
+    <li><strong>TRL-Internal-Docs</strong> → Workflows, plans & documentation</li>
+    <li><strong>TRL-Templates</strong> → Reusable code components</li>
+  </ul>
+</section>
+
+<footer role="contentinfo">
+  <p>&copy; 2026 TRL – The Right Lifestyle | Structured Digital Systems</p>
 </footer>
 
 </body>
