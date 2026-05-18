@@ -1,0 +1,12 @@
+TRL-Website/
+│
+├── index.html
+├── style.css
+├── script.js
+│
+├── assets/
+│   ├── images/
+│   ├── css/
+│   └── js/
+│
+└── README.md
